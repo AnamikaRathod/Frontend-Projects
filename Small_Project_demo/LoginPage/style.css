@@ -1,0 +1,94 @@
+*{
+    padding: 10px;
+    margin: 20px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+.main {
+    background-image: url('https://cdn.pixabay.com/photo/2021/04/22/18/35/leaf-6199807_1280.jpg');
+    opacity: 0.9;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.a {
+    font-size: large;
+    border: 10px solid rgb(117, 153, 0);
+    border-radius: 50px;
+    border-style: double;
+    height: 650px;
+    background-image: url('https://cdn.pixabay.com/photo/2021/04/22/18/35/leaf-6199807_1280.jpg');
+    width: 750px;
+    background-size: cover;
+    opacity: 0.9;
+}
+
+input {
+    background-color: rgb(61, 176, 61);
+    font-size: large;
+    color: rgb(0, 97, 0);
+    opacity: 0.9;
+    border: 2px solid rgb(1, 86, 1);
+    border-style: double;
+}
+
+input:hover {
+    transition: 1s;
+    background-color: rgb(33, 120, 33);
+}
+
+button {
+    margin-left: 250px;
+    background-color: rgb(61, 176, 61);
+    cursor: pointer;
+    height: 50px;
+    width: 150px;
+    opacity: 0.8;
+    font-size: 20px;
+}
+
+input,button {
+    border-radius: 10px;
+    border: 2px solid rgb(81, 176, 91);
+}
+
+button:hover {
+    background-color: rgb(38, 129, 38);
+    transition: 1s;
+}
+
+#ei {
+    margin-left: 50px;
+}
+
+.cb {
+    width: 15px;
+    height: 15px;
+}
+
+.sel {
+    margin-left: 5px;
+    background-color: rgb(61, 176, 61);
+    border: 2px solid rgb(27, 126, 18);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 300px;
+    font-size: large;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.sel:hover {
+    background-color:  rgb(33, 120, 33);
+    text-align: center;
+    cursor: pointer;
+}
+
+.rio {
+    height: 15px;
+    width: 15px;
+}
