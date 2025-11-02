@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="main">
+    <form action="/server">
+        <div class="a">
+        <h2 style="text-align: center;">🍃🍃Login Page🍃🍃</h2>
+            <label for="name">Enter Username : </label>
+            <input type="text" placeholder="Username" id="name" name="name">
+            <br>
+            <label for="pass">Enter Password : </label>
+            <input type="password" placeholder="Password" id="pass" name="pass">
+            <br>
+            <label for="email" id="ei">Enter Email : </label>
+            <input type="email" placeholder="Email" id="email" name="email">
+
+            <br>
+            Select You Professional :
+            <select name="professional" id="professional" class="sel">
+            <!-- <option>Select Your Professional</option> -->
+            <option value="stu">Student</option>
+            <option value="Dev">Developer</option>
+            </select>
+
+            <br>
+            Have you Experience :
+            <label for="yes">Yes</label>
+            <input type="radio" id="yes" name="ans" value="yes" class="rio">
+            <label for="no">No</label>
+            <input type="radio" id="no" name="ans" value="no" class="rio">
+            <br>
+            <label for="cbox" >Remember Me : </label>
+            <input type="checkbox" id="cbox" class="cb" checked/>
+            <br>
+
+           <button type="submit">Submit</button>
+        </div>
+    </form>
+</body>
+</html>
