@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <header>
+            <h1>WebForm</h1>
+                <div class="list">
+                    <ul>
+                        <li><a href="/home">Home</a></li>
+                        <li><a href="/follow">Following</a></li>
+                        <li><a href="/ans">Contact</a></li>
+                         <li><a href="/space">Account</a></li>
+                    </ul>
+                </div>
+        </header>
+                <form action="/server">
+                    <div>
+                        <label for="name">Enter Name : </label>
+                        <input type="text" id="name" placeholder="Username" name="un" required/>
+                        <br><br>
+                        <label for="pass">Enter Password : </label>
+                        <input type="password" id="pass" placeholder="Password" name="pw" required/>
+                        <br><br>
+                        <label for="email">Enter Email : </label>
+                        <input type="email" id="email" placeholder="email" name="ei" required/>
+                    </div>
+                    <br>
+                    <div id="cbr">
+                        <input type="checkbox" name="cb" id="cb">
+                        <label for="cb">Are You Agree ?</label>
+                        
+                        <br><br>
+                        <label for="/rd">How many accounts do you have ? </label>
+                        <br>
+                        <div class="rdo">
+                        <input type="radio" name="rd" id="rd1" value="1">
+                        <label for="rd1">1</label>
+                        <input type="radio" name="rd" id="rd2" value="2">
+                        <label for="rd2">2</label>
+                        <input type="radio" name="rd" id="rd3" value="3">
+                        <label for="rd3">3</label>
+                        <input type="radio" name="rd" id="rd4" value="4">
+                        <label for="rd4">4</label>
+                        <input type="radio" name="rd" id="rd5" value="5">
+                        <label for="rd5">5</label>
+                        </div>
+                        <br>
+                        <input type="number" placeholder="Enter Number">
+                    </div>
+            
+                    <div>
+                        <select name="country" id="country">
+                            <option>Select You Country</option>
+                            <option value="India">India</option>
+                            <option value="China">China</option>
+                            <option value="USA">USA</option>
+                            <option value="Australia">Australia</option>
+                            <option value="Japan">Japan</option>
+                        </select>
+                    </div>
+                    
+                    <div id="fba">
+                        <label for="fb">Write your feedback</label><br>
+                        <textarea name="feedback" id="fb" rows="5" cols="50" placeholder="Please give Your valuable feedback " ></textarea>
+                    </div>
+                    
+                    <br>
+                    <hr>
+                    <hr>
+                    <div>
+                        <div id="bio">
+                            <p>Jem</p>
+                            <h3 id="stl">Hello, I'm Jem.
+                            I'm Software Engineer at google.</h3>
+                            <button>+follow</button>
+                            <button>-Unfollow</button>
+                        </div>
+                        <br><hr>
+                        <div>
+                            <p>Tommy</p>
+                            <h3 id="stl">
+                            Hello, I'm Tommy From Japan.
+                            I'm QA Tester at Microsoft.</h3>
+                            <button>+follow</button>
+                            <button>-Unfollow</button>
+                        </div>
+                        <br><hr>
+                        <div>
+                            <p>Kristena</p>
+                            <h3 id="stl">Hello, I'm Kristena.
+                            I'm Full-Stack Developer at google.</h3>
+                            <button>+follow</button>
+                            <button>-Unfollow</button>
+                        </div>
+                        <br><hr>
+                        <div>
+                            <p>Jelly</p>
+                            <h3 id="stl">Hello, I'm Jelly.
+                            I'm UI/Ux Developer at Microsoft.</h3>
+                            <button>+follow</button>
+                            <button>-Unfollow</button>
+                        </div>
+                    </div>
+            </form> 
+    </main>
+</body>
+</html>
