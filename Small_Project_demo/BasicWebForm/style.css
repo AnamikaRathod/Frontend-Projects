@@ -1,0 +1,187 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+    text-align: center;
+    margin: 20px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.list header {
+    border: 5px solid white;
+    border-radius: 25px;
+    border-style: double;
+    background-color: #1B3C53;
+    padding: 15px;
+}
+
+main {
+    border: 5px solid white;
+    border-radius: 25px;
+    border-style: double;
+    background-color: #1B3C53;
+    padding: 15px;
+}
+
+header {
+    background-image: url('img.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    padding-top: 10px;
+}
+
+h1 {
+    padding: 20px;
+    margin: 10px;
+    background-color:#234C6A;
+    font-family: JetBrains Mono NL;
+    letter-spacing: 2.5px;
+    font-weight:bold;
+    font-size:xx-large;
+    text-align: center;
+    color:#E0D9D9;
+}
+
+div label{
+    color: #B7E5CD;
+}
+
+/* Descendant Selector */
+ul a {
+    font-weight: bold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+    color: #C5B0CD;
+    text-decoration: none;
+}
+
+ul a:hover {
+    color: #C1785A;
+}
+
+.list ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 0px;
+  padding: 10px;
+}
+
+.list ul li a {
+    background-color: #C5B0CD;
+    color: #305669;
+    border-radius: 5px;
+    padding: 12px 10px 12px 10px;
+    font-weight: bold;
+    transition-duration: 0.6s;
+
+}
+
+.list ul li a:hover {
+  background-color: #D4C9BE;
+  color: #123458;
+}
+
+#stl {
+    font-weight: bold;
+    color: #D2C1B6;
+    font-family: cursive;
+}
+
+button {
+    background-color:#8ABEB9;
+    cursor: pointer;
+    border: 3px;
+    color: #305669;
+    border-style: double;
+    border-color: rgb(15, 137, 139);
+}
+
+button:hover {
+    background-color: #305669;
+    color: #ffffff;
+    transition-duration: 0.9s;
+}
+
+input {
+    background-color:#234C6A;
+    font-family: Fira Code;
+    border-radius: 10px;
+    border-color: rgb(159, 213, 223);
+}
+
+input::placeholder {
+    color: #E0D9D9;
+}
+
+input:hover {
+    background-color: #C1785A;
+    transition-duration: 0.9s;
+    color: white;
+}
+
+.rdo label{
+    font-size: larger;
+    color: white;
+}
+
+#fba textarea{
+    background-color:#8ABEB9;
+    font-family: JetBrains Mono;
+}
+
+/* Sibling Combinator */
+p + h3:hover{
+    text-decoration: underline;
+}
+
+/* Child Combinator */
+div > p {
+    color: rgb(163, 183, 243);
+}
+
+div > p:hover {
+    color: rgb(0, 161, 139);
+}
+
+select > option {
+    color: #D4C9BE;
+    background-color: #123458;
+    font-weight: 900;
+}
+
+option::placeholder {
+    background-color: #1B3C53;
+}
+
+/* Attribute Selector */
+input[type="text"],
+input[type="password"] {
+    color: #D4C9BE;
+}
+
+input[type="radio"] {
+    height:20px;
+    width: 20px;
+}
+
+input[type="radio"]:hover+label {
+    font-weight: bolder;
+    font-size:xx-large;
+}
+
+/* pseudo class */
+input[type="radio"]:checked+label {
+    color: #34A853;
+    font-weight: bolder;
+    font-size:x-large;
+}
+
+input[type="checkbox"]:checked+label {
+    color: #34A853;
+}
